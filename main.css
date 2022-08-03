@@ -3,7 +3,9 @@
     --ff-roboto: 'Roboto', sans-serif;
     --ff-ubuntu: 'Ubuntu', sans-serif;
 }
-
+.hero-image span.red {
+    color: #FF2B06;
+}
 *{
     font-family: var(--ff-roboto);
     margin: 0;
@@ -128,7 +130,7 @@ a.special::after{
     line-height: 77px;
 }
 
-.hero-image span {
+.hero-image span.span {
     width: 145px;
     height: 10px;
     background-color: #FF2B06;
